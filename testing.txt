@@ -1,0 +1,202 @@
+ATM BANKING MANAGEMENT SYSTEM
+TESTING DOCUMENT
+
+========================================
+TEST CASE 1
+========================================
+
+Module: Authentication
+
+Input:
+PIN = 9395
+
+Expected Output:
+LOGIN SUCCESSFUL
+
+Actual Output:
+LOGIN SUCCESSFUL
+
+Status:
+PASS
+
+========================================
+TEST CASE 2
+========================================
+
+Module: Authentication
+
+Input:
+Wrong PIN
+
+Expected Output:
+WRONG PIN Message
+
+Actual Output:
+WRONG PIN Message Displayed
+
+Status:
+PASS
+
+========================================
+TEST CASE 3
+========================================
+
+Module: Check Balance
+
+Input:
+Select Option 1
+
+Expected Output:
+Display Current Account Balance
+
+Actual Output:
+Balance Displayed Successfully
+
+Status:
+PASS
+
+========================================
+TEST CASE 4
+========================================
+
+Module: Deposit Money
+
+Input:
+Select Option 2
+Amount = 1000
+
+Expected Output:
+Deposit Successful
+Balance Updated
+
+Actual Output:
+Deposit Successful
+Balance Updated
+
+Status:
+PASS
+
+========================================
+TEST CASE 5
+========================================
+
+Module: Withdraw Money
+
+Input:
+Select Option 3
+Amount = 500
+
+Expected Output:
+Cash Dispensed
+Balance Updated
+
+Actual Output:
+Collect Cash
+Remaining Balance Displayed
+
+Status:
+PASS
+
+========================================
+TEST CASE 6
+========================================
+
+Module: Withdraw Money
+
+Input:
+Amount Greater Than Available Balance
+
+Expected Output:
+Insufficient Balance Message
+
+Actual Output:
+Insufficient Balance Message Displayed
+
+Status:
+PASS
+
+========================================
+TEST CASE 7
+========================================
+
+Module: Transaction History
+
+Input:
+Select Option 4
+
+Expected Output:
+Display Previous Transactions
+
+Actual Output:
+Transaction History Displayed
+
+Status:
+PASS
+
+========================================
+TEST CASE 8
+========================================
+
+Module: Change PIN
+
+Input:
+Valid Old PIN
+Enter New PIN
+
+Expected Output:
+PIN Changed Successfully
+
+Actual Output:
+PIN Change Successful Message Displayed
+
+Status:
+PASS
+
+========================================
+TEST CASE 9
+========================================
+
+Module: Change PIN
+
+Input:
+Wrong Old PIN
+
+Expected Output:
+Incorrect PIN Message
+
+Actual Output:
+Incorrect PIN Message Displayed
+
+Status:
+PASS
+
+========================================
+TEST CASE 10
+========================================
+
+Module: Exit Application
+
+Input:
+Select Option 6
+
+Expected Output:
+Thank You Message
+
+Actual Output:
+Thank You For Using ATM
+
+Status:
+PASS
+
+========================================
+TEST SUMMARY
+========================================
+
+Total Test Cases : 10
+
+Passed : 10
+
+Failed : 0
+
+Result :
+ATM Banking Management System Tested Successfully.
